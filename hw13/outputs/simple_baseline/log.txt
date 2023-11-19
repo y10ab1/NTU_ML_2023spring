@@ -1,0 +1,129 @@
+{'dataset_root': './Food-11', 'save_dir': './outputs', 'exp_name': 'simple_baseline', 'batch_size': 64, 'lr': 0.0003, 'seed': 20220013, 'loss_fn_type': 'KD', 'weight_decay': 1e-05, 'grad_norm_max': 10, 'n_epochs': 50, 'patience': 300}
+device: cuda
+device: cuda
+[ Train | 001/050 ] loss = 1.11438, acc = 0.29130
+[ Valid | 001/050 ] loss = 1.03510, acc = 0.33055 -> best
+Best model found at epoch 1, saving model
+device: cuda
+[ Train | 001/050 ] loss = 1.78103, acc = 0.36055
+[ Valid | 001/050 ] loss = 1.74108, acc = 0.36304 -> best
+Best model found at epoch 1, saving model
+[ Train | 002/050 ] loss = 1.72084, acc = 0.38887
+[ Valid | 002/050 ] loss = 1.71117, acc = 0.39147 -> best
+Best model found at epoch 2, saving model
+[ Train | 003/050 ] loss = 1.67878, acc = 0.40819
+[ Valid | 003/050 ] loss = 1.75445, acc = 0.38177
+[ Train | 004/050 ] loss = 1.64712, acc = 0.42250
+[ Valid | 004/050 ] loss = 1.71796, acc = 0.38967
+[ Train | 005/050 ] loss = 1.62499, acc = 0.42950
+[ Valid | 005/050 ] loss = 1.71985, acc = 0.43389 -> best
+Best model found at epoch 5, saving model
+device: cuda
+[ Train | 001/050 ] loss = 1.61273, acc = 0.43751
+[ Valid | 001/050 ] loss = 1.62152, acc = 0.43005 -> best
+Best model found at epoch 1, saving model
+[ Train | 002/050 ] loss = 1.59480, acc = 0.44701
+[ Valid | 002/050 ] loss = 1.62058, acc = 0.43321 -> best
+Best model found at epoch 2, saving model
+[ Train | 003/050 ] loss = 1.57904, acc = 0.45982
+[ Valid | 003/050 ] loss = 1.57989, acc = 0.45171 -> best
+Best model found at epoch 3, saving model
+[ Train | 004/050 ] loss = 1.55751, acc = 0.46162
+[ Valid | 004/050 ] loss = 1.56928, acc = 0.45104
+[ Train | 005/050 ] loss = 1.54276, acc = 0.47173
+[ Valid | 005/050 ] loss = 1.54724, acc = 0.44517
+[ Train | 006/050 ] loss = 1.52725, acc = 0.47683
+[ Valid | 006/050 ] loss = 1.53805, acc = 0.46503 -> best
+Best model found at epoch 6, saving model
+[ Train | 007/050 ] loss = 1.51425, acc = 0.48344
+[ Valid | 007/050 ] loss = 1.55898, acc = 0.44743
+[ Train | 008/050 ] loss = 1.49819, acc = 0.48724
+[ Valid | 008/050 ] loss = 1.50883, acc = 0.47315 -> best
+Best model found at epoch 8, saving model
+[ Train | 009/050 ] loss = 1.48267, acc = 0.49134
+[ Valid | 009/050 ] loss = 1.50228, acc = 0.47360 -> best
+Best model found at epoch 9, saving model
+[ Train | 010/050 ] loss = 1.47597, acc = 0.49405
+[ Valid | 010/050 ] loss = 1.52418, acc = 0.46029
+[ Train | 011/050 ] loss = 1.46088, acc = 0.49945
+[ Valid | 011/050 ] loss = 1.51471, acc = 0.46751
+[ Train | 012/050 ] loss = 1.45043, acc = 0.50746
+[ Valid | 012/050 ] loss = 1.46790, acc = 0.48285 -> best
+Best model found at epoch 12, saving model
+[ Train | 013/050 ] loss = 1.44128, acc = 0.50635
+[ Valid | 013/050 ] loss = 1.45816, acc = 0.49097 -> best
+Best model found at epoch 13, saving model
+[ Train | 014/050 ] loss = 1.42710, acc = 0.51066
+[ Valid | 014/050 ] loss = 1.50267, acc = 0.47902
+[ Train | 015/050 ] loss = 1.41387, acc = 0.52257
+[ Valid | 015/050 ] loss = 1.46241, acc = 0.48940
+[ Train | 016/050 ] loss = 1.40314, acc = 0.52387
+[ Valid | 016/050 ] loss = 1.51642, acc = 0.48150
+[ Train | 017/050 ] loss = 1.40707, acc = 0.51766
+[ Valid | 017/050 ] loss = 1.46844, acc = 0.50090 -> best
+Best model found at epoch 17, saving model
+[ Train | 018/050 ] loss = 1.38402, acc = 0.52867
+[ Valid | 018/050 ] loss = 1.43675, acc = 0.49143
+[ Train | 019/050 ] loss = 1.37229, acc = 0.53658
+[ Valid | 019/050 ] loss = 1.44397, acc = 0.47879
+[ Train | 020/050 ] loss = 1.36520, acc = 0.53217
+[ Valid | 020/050 ] loss = 1.51073, acc = 0.47947
+[ Train | 021/050 ] loss = 1.35119, acc = 0.54368
+[ Valid | 021/050 ] loss = 1.47633, acc = 0.48421
+[ Train | 022/050 ] loss = 1.34616, acc = 0.53768
+[ Valid | 022/050 ] loss = 1.39535, acc = 0.52098 -> best
+Best model found at epoch 22, saving model
+[ Train | 023/050 ] loss = 1.33517, acc = 0.54698
+[ Valid | 023/050 ] loss = 1.49680, acc = 0.49707
+[ Train | 024/050 ] loss = 1.32636, acc = 0.54948
+[ Valid | 024/050 ] loss = 1.41346, acc = 0.49413
+[ Train | 025/050 ] loss = 1.32009, acc = 0.55199
+[ Valid | 025/050 ] loss = 1.44736, acc = 0.49210
+[ Train | 026/050 ] loss = 1.30419, acc = 0.56129
+[ Valid | 026/050 ] loss = 1.39268, acc = 0.50699
+[ Train | 027/050 ] loss = 1.30075, acc = 0.55679
+[ Valid | 027/050 ] loss = 1.37692, acc = 0.51828
+[ Train | 028/050 ] loss = 1.29202, acc = 0.56059
+[ Valid | 028/050 ] loss = 1.34302, acc = 0.53227 -> best
+Best model found at epoch 28, saving model
+[ Train | 029/050 ] loss = 1.28124, acc = 0.56129
+[ Valid | 029/050 ] loss = 1.33101, acc = 0.54964 -> best
+Best model found at epoch 29, saving model
+[ Train | 030/050 ] loss = 1.27381, acc = 0.57040
+[ Valid | 030/050 ] loss = 1.39030, acc = 0.51376
+[ Train | 031/050 ] loss = 1.26694, acc = 0.57070
+[ Valid | 031/050 ] loss = 1.41115, acc = 0.51196
+[ Train | 032/050 ] loss = 1.25580, acc = 0.57470
+[ Valid | 032/050 ] loss = 1.30811, acc = 0.53745
+[ Train | 033/050 ] loss = 1.25259, acc = 0.57850
+[ Valid | 033/050 ] loss = 1.50259, acc = 0.47969
+[ Train | 034/050 ] loss = 1.24002, acc = 0.58291
+[ Valid | 034/050 ] loss = 1.31862, acc = 0.54310
+[ Train | 035/050 ] loss = 1.23813, acc = 0.57710
+[ Valid | 035/050 ] loss = 1.27509, acc = 0.54851
+[ Train | 036/050 ] loss = 1.22295, acc = 0.58791
+[ Valid | 036/050 ] loss = 1.31954, acc = 0.54061
+[ Train | 037/050 ] loss = 1.22626, acc = 0.58701
+[ Valid | 037/050 ] loss = 1.39927, acc = 0.51264
+[ Train | 038/050 ] loss = 1.20948, acc = 0.58761
+[ Valid | 038/050 ] loss = 1.29666, acc = 0.56024 -> best
+Best model found at epoch 38, saving model
+[ Train | 039/050 ] loss = 1.21342, acc = 0.59131
+[ Valid | 039/050 ] loss = 1.33393, acc = 0.53114
+[ Train | 040/050 ] loss = 1.19844, acc = 0.59552
+[ Valid | 040/050 ] loss = 1.26063, acc = 0.56205 -> best
+Best model found at epoch 40, saving model
+[ Train | 041/050 ] loss = 1.19002, acc = 0.59672
+[ Valid | 041/050 ] loss = 1.50756, acc = 0.48285
+[ Train | 042/050 ] loss = 1.18996, acc = 0.59912
+[ Valid | 042/050 ] loss = 1.26581, acc = 0.56837 -> best
+Best model found at epoch 42, saving model
+[ Train | 043/050 ] loss = 1.17756, acc = 0.60042
+[ Valid | 043/050 ] loss = 1.31472, acc = 0.54310
+[ Train | 044/050 ] loss = 1.18001, acc = 0.60102
+[ Valid | 044/050 ] loss = 1.23769, acc = 0.57875 -> best
+Best model found at epoch 44, saving model
+[ Train | 045/050 ] loss = 1.17030, acc = 0.60342
+[ Valid | 045/050 ] loss = 1.29499, acc = 0.54625
+[ Train | 046/050 ] loss = 1.16175, acc = 0.61143
+[ Valid | 046/050 ] loss = 1.30897, acc = 0.53949
